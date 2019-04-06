@@ -1,0 +1,496 @@
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | J-2014.09-DWBB_201409.4 |     *     |
+| Licensed DW Building Blocks        | J-2014.09-DWBB_201409.4 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 155 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loaded alib file './alib-52/saed32lvt_tt1p05vn40c.db.alib'
+Information: Ungrouping hierarchy c before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ac before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcadd before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/pcreg before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/detect before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/Ext_Imm before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/forunit before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/FAmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/FBmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/srcbmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/alu_module before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/brunit before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/resmux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dp/wrsmux before Pass 1 (OPT-776)
+Information: Ungrouping 15 of 20 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'datamemory'
+ Implement Synthetic for 'datamemory'.
+  Processing 'Datapath'
+Information: Added key list 'DesignWare' to design 'Datapath'. (DDB-72)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][30]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][29]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][28]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][27]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][26]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][25]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][24]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][23]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][22]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][21]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][20]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][19]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][18]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][17]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][16]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][15]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][14]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][13]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][12]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][11]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+Information: In design 'Datapath', the register 'C_reg[Pc_Four][10]' is removed because it is merged to 'C_reg[Pc_Four][31]'. (OPT-1215)
+ Implement Synthetic for 'Datapath'.
+Information: The register 'C_reg[Pc_Four][31]' is a constant and will be removed. (OPT-1206)
+  Processing 'instructionmemory'
+ Implement Synthetic for 'instructionmemory'.
+  Processing 'riscv'
+  Processing 'RegFile'
+ Implement Synthetic for 'RegFile'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'PMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'PMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT3_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT2_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The library cell 'NMT1_LVT' in the library 'saed32lvt_tt1p05vn40c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+Information: The register 'dp/D_reg[Pc_Four][10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[Branch]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Instr][2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Instr][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[JalrSel]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Instr][6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Instr][18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[RS_One][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Instr][19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[RS_One][4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[RWSel][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/C_reg[RWSel][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[RWSel][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[RWSel][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/C_reg[RWSel][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[RWSel][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[ALUOp][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/pcreg/q_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Pc][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[Curr_Pc][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/C_reg[Pc_Four][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/pcreg/q_reg[1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/A_reg[Curr_Pc][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/B_reg[Curr_Pc][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/C_reg[Pc_Four][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Pc_Four][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dp/D_reg[Imm_Out][30]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][29]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][28]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][27]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][26]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][25]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][24]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][23]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][22]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][21]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][20]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][19]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][18]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][17]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][16]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][15]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][14]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][13]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][12]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][11]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][10]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][9]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][8]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][7]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][6]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][5]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][4]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][3]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][2]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][1]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][0]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Imm_Out][31]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][2]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][3]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][4]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][5]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][6]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][7]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][8]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Four][9]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][0]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][1]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][2]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][3]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][4]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][5]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][6]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][7]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][8]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][9]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][10]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][11]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][12]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][13]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][14]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][15]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][16]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][17]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][18]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][19]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][20]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][21]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][22]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][23]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][24]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][25]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][26]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][27]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][28]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][29]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][30]' will be removed. (OPT-1207)
+Information: The register 'dp/D_reg[Pc_Imm][31]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][3]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][4]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][5]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][6]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][7]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][0]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][1]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][2]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][3]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][4]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][5]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][6]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][7]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][8]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][9]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][10]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][11]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][12]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][13]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][14]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][15]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][16]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][17]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][18]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][19]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][20]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][21]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][22]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][23]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][24]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][25]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][26]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][27]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][28]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][29]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][30]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Imm_Out][31]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][2]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][8]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Four][9]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][0]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][1]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][2]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][3]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][4]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][5]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][6]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][7]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][8]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][9]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][10]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][11]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][12]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][13]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][14]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][15]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][16]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][17]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][18]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][19]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][20]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][21]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][22]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][23]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][24]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][25]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][26]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][27]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][28]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][29]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][30]' will be removed. (OPT-1207)
+Information: The register 'dp/C_reg[Pc_Imm][31]' will be removed. (OPT-1207)
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Updating design information... (UID-85)
+Information: In design 'riscv', the register 'dp/B_reg[MemtoReg]' is removed because it is merged to 'dp/B_reg[MemRead]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][22]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][25]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][28]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][31]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][14]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][17]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][23]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][26]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][29]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][12]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][15]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][18]' is removed because it is merged to 'dp/B_reg[ImmG][20]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][24]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][27]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][30]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][13]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][16]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][19]' is removed because it is merged to 'dp/B_reg[ImmG][21]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/C_reg[MemRead]' is removed because it is merged to 'dp/C_reg[MemtoReg]'. (OPT-1215)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:14:40  329371.3     11.40    2946.0     253.4                           225054572544.0000
+    0:14:42  329371.3     11.40    2946.0     253.4                           225054572544.0000
+    0:14:42  329371.3     11.40    2946.0     253.4                           225054572544.0000
+    0:14:43  329371.3     11.40    2946.0     253.4                           225054572544.0000
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+  Mapping 'Datapath_DP_OP_83J2_122_3249_0'
+    0:17:08  362028.9      6.76   40069.2      48.0                           210791776256.0000
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:17:08  362028.9      6.76   40069.2      48.0                           210791776256.0000
+    0:17:37  362113.1      6.76   26652.5      38.8                           209914314752.0000
+    0:17:42  362218.6      5.34   26632.7      22.8                           209926258688.0000
+    0:17:42  362218.6      5.34   26632.7      22.8                           209926258688.0000
+    0:17:43  362219.7      5.30   26632.0      22.8                           209929486336.0000
+    0:17:43  362219.7      5.30   26632.0      22.8                           209929486336.0000
+    0:17:43  362219.7      5.30   26632.0      22.8                           209929486336.0000
+    0:17:43  362219.7      5.30   26632.0      22.8                           209929486336.0000
+    0:17:53  363158.2      2.50   14069.1     694.3                           209969840128.0000
+    0:17:54  363158.2      2.50   14069.1     694.3                           209969840128.0000
+    0:20:23  363611.7      1.46   10682.8    1517.8                           209337794560.0000
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:20:24  363617.2      1.46   10679.2    1517.8                           209342955520.0000
+    0:20:38  363483.1      1.34    7630.6    1565.3                           209007509504.0000
+    0:20:38  363483.1      1.34    7630.6    1565.3                           209007509504.0000
+    0:21:08  363570.5      1.24    6462.6    1578.8                           209064738816.0000
+    0:21:08  363573.2      1.23    6462.7    1578.8                           209067311104.0000
+    0:21:18  363530.6      1.17    5874.6    1600.6                           208981360640.0000
+    0:21:18  363530.6      1.17    5874.6    1600.6                           208981360640.0000
+    0:21:20  363530.6      1.17    5874.6    1600.6                           208981360640.0000
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:21:20  363530.6      1.17    5874.6    1600.6                           208981360640.0000
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+    0:21:53  361845.5      1.17    3714.3     537.3 dp/data_mem/net128112     208690724864.0000
+    0:22:12  361700.4      1.16    1937.9     486.6 dp/C_reg[Alu_Result][27]/D 208719790080.0000
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][21]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+Information: In design 'riscv', the register 'dp/B_reg[ImmG][20]' is removed because it is merged to 'dp/B_reg[ImmG][11]'. (OPT-1215)
+    0:22:44  360283.1      1.03    1319.4       0.0                           208725262336.0000
+    0:22:59  360349.8      0.92    1316.8       1.9                           208774250496.0000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:23:01  360349.8      0.92    1316.8       1.9                           208774250496.0000
+    0:23:15  360332.4      0.92    1316.8       1.9                           208770138112.0000
+
+Threshold voltage group cell usage:
+>> saed32cell_lvt 100.00%
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:23:59  360325.7      0.92    1316.7       1.9                           208764026880.0000
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+  Global Optimization (Phase 53)
+  Global Optimization (Phase 54)
+  Global Optimization (Phase 55)
+  Global Optimization (Phase 56)
+  Global Optimization (Phase 57)
+  Global Optimization (Phase 58)
+Information: Complementing port 'Funct7[5]' in design 'Datapath'.
+	 The new name of the port is 'Funct7[5]_BAR'. (OPT-319)
+    0:27:31  364882.4      0.31     371.4       0.0                           206931918848.0000
+    0:27:49  364908.6      0.22     341.2      43.4                           206922301440.0000
+    0:29:02  364860.3      0.22     389.5      43.4                           205847658496.0000
+    0:29:17  364931.3      0.21     371.8      44.1                           205920190464.0000
+    0:29:17  364931.3      0.21     371.8      44.1                           205920190464.0000
+    0:29:18  364932.5      0.21     371.8      44.1                           205924335616.0000
+    0:29:18  364932.5      0.21     371.8      44.1                           205924335616.0000
+    0:29:20  364932.5      0.21     371.8      44.1                           205924335616.0000
+    0:29:20  364932.5      0.21     371.8      44.1                           205924335616.0000
+    0:29:46  364915.2      0.15     259.2     112.0                           205966147584.0000
+    0:29:46  364915.2      0.15     259.2     112.0                           205966147584.0000
+    0:30:44  366380.7      0.12      65.1     909.2                           205838483456.0000
+    0:30:44  366380.7      0.12      65.1     909.2                           205838483456.0000
+    0:30:46  366380.0      0.12      64.8     909.2                           205836976128.0000
+    0:30:46  366380.0      0.12      64.8     909.2                           205836976128.0000
+    0:31:13  366582.1      0.10      16.1    1157.3                           205835026432.0000
+    0:31:13  366582.1      0.10      16.1    1157.3                           205835026432.0000
+    0:31:17  366569.8      0.09      10.1    1150.0                           205823836160.0000
+    0:31:17  366569.8      0.09      10.1    1150.0                           205823836160.0000
+    0:31:19  366569.8      0.09      10.1    1150.0                           205823836160.0000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:32:04  366569.8      0.09      10.1    1150.0                           205823836160.0000
+    0:32:30  366655.5      0.34       6.1    1123.3                           206149189632.0000
+    0:32:34  366651.1      0.21       4.3    1123.3                           206159953920.0000
+    0:33:38  366803.3      0.21      29.2     732.2                           205092847616.0000
+    0:33:56  363081.8      0.17      25.3       0.0 dp/C_reg[Alu_Result][31]/D 205141098496.0000
+    0:34:11  363076.6      0.10      14.5       0.0 dp/C_reg[Alu_Result][29]/D 205219217408.0000
+    0:34:15  363084.8      0.10      14.4       0.0                           205238550528.0000
+    0:34:18  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:18  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:18  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:18  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:19  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:19  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:34:19  363095.0      0.07      13.1       0.3                           205268205568.0000
+    0:35:40  364588.4      0.07       1.0       8.9                           205425721344.0000
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db'
+Loading db file '/users/ugrad2/2012/spring/pooriam/libraries/saed32sram_tt1p05vn40c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'riscv' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'dp/data_mem/clk': 17692 load(s), 1 driver(s)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1

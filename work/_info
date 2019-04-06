@@ -1,0 +1,321 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1551438021
+!i10b 1
+!s100 ijVXn`j8gkb?JEem_D[5R0
+Iea:KYRYIG=^VL;m0hKHdF2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1550780677
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/adder.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/adder.sv
+L0 3
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1551438021.000000
+Z7 !s107 /users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RISC_V.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Datapath.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Controller.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RegFile.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/alu.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/ALUController.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/datamemory.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/mux2.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/flopr.sv|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/adder.sv|
+Z8 !s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/rtl.cfg|
+!i113 0
+Z9 o-quiet -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 n0]<kbZFQ@n`:O8AJ`lzE2
+ID6H?P?[;D?U9>8UWbgS>M1
+R3
+!s105 alu_sv_unit
+S1
+R0
+w1551434197
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/alu.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/alu.sv
+Z10 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vALUController
+R1
+R2
+!i10b 1
+!s100 3mY53ED5IW;5oj`UVYz5a1
+IlTm@2;SkLCYIkQii8:fil1
+R3
+!s105 ALUController_sv_unit
+S1
+R0
+w1551433039
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/ALUController.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/ALUController.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@a@l@u@controller
+vController
+R1
+R2
+!i10b 1
+!s100 Lez]jPHLSV]=IJIcO]X921
+IUhb:6R5hWCz[:EHJ0ITWk0
+R3
+!s105 Controller_sv_unit
+S1
+R0
+w1551437930
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Controller.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Controller.sv
+Z11 L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@controller
+vdatamemory
+R1
+R2
+!i10b 1
+!s100 jnZAR?6OKKaNBcUbK:ocM3
+IN:aRQIHV9F`iBUDEdNei`3
+R3
+!s105 datamemory_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/datamemory.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/datamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vDatapath
+R1
+R2
+!i10b 1
+!s100 ]DT2MU0Jjon9n`Y9ZAo9A0
+I3e5J6aBNdkTlzJc[6H;>c2
+R3
+!s105 Datapath_sv_unit
+S1
+R0
+w1551438005
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Datapath.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/Datapath.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@datapath
+vflopr
+R1
+R2
+!i10b 1
+!s100 B6BS^>`X=WIeQVmG9i5VI0
+I4zM81l_[z0Vn8LX[4NZ@A0
+R3
+!s105 flopr_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/flopr.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/flopr.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vimm_Gen
+R1
+R2
+!i10b 1
+!s100 `UFbQTdzz?:N5N<CmA6cl0
+IZHTK]BWehM]Qid8n`A`bl2
+R3
+!s105 imm_Gen_sv_unit
+S1
+R0
+w1551434373
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+nimm_@gen
+vinstructionmemory
+R1
+R2
+!i10b 1
+!s100 :BdEkYH7nN0^1PKOzRah[0
+IIUbEa@>@mFQmM2X4iO6=43
+R3
+!s105 instructionmemory_sv_unit
+S1
+R0
+w1551437571
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vmux2
+R1
+R2
+!i10b 1
+!s100 @X6>V^M3YMfab:XdY67SE1
+IOC15[56MM>_Z0?EIEB=lV1
+R3
+!s105 mux2_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/mux2.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/mux2.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vRegFile
+R1
+R2
+!i10b 1
+!s100 2cGb6>@mnQP5YGGLJFYg]1
+I5:R0LCO_L;E4kdQ8FIG0Q3
+R3
+!s105 RegFile_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RegFile.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RegFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@reg@file
+vriscv
+R1
+R2
+!i10b 1
+!s100 ETb<d:nZZb0@gVzzka7dC2
+IZ?z?0:8;5Bmoh7`gcdFzT3
+R3
+!s105 RISC_V_sv_unit
+S1
+R0
+w1551432180
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RISC_V.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/design/RISC_V.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vtb_top
+R1
+R2
+!i10b 1
+!s100 XUh6hWFf294FU[cjHPVFj1
+IG?`iBXVd4Qm?47j0anCIJ0
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+w1551437295
+8/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/verif/tb_top.sv
+F/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/verif/tb_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 /users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/verif/tb_top.sv|
+!s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/yubb/EECS112L/Labs/Lab3/Lab_Files/verif/tb.cfg|-work|work|
+!i113 0
+o-quiet -sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ttb_top_opt
+R2
+VJhPoIHc;f?eIlj8?dzGF^2
+04 6 4 work tb_top fast 0
+o-quiet +acc -work work
+ntb_top_opt
+OL;O;10.4c;61
